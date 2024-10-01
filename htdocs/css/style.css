@@ -1,0 +1,27 @@
+body {
+    background-color: #9AE19D;
+}
+
+#text {
+    color: #2C302E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#imgd {
+    padding: 4vh;
+    text-align: center;
+}
+
+img {
+    border-color: #2C302E;
+    border-style: solid;
+    border-radius: 1vh;
+    border-width: 10px;
+}
+
+button {
+    background-color: #D72638;
+    border-color: #537A5A;
+    color: #2C302E;
+    
+}
