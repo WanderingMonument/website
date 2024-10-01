@@ -1,27 +1,37 @@
 body {
-    background-color: #9AE19D;
+    background-color: #230024;
+    text-align: center;
 }
 
 #text {
-    color: #2C302E;
+    color: #c85ed6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12;
 }
 
 #imgd {
     padding: 4vh;
     text-align: center;
+    transition-duration: 0.4s;
 }
 
 img {
-    border-color: #2C302E;
+    border-color: #c85ed6;
     border-style: solid;
     border-radius: 1vh;
     border-width: 10px;
+
 }
 
 button {
-    background-color: #D72638;
-    border-color: #537A5A;
-    color: #2C302E;
-    
+    background-color: #3e1244;
+    border-color: #b73dc7;
+    color: #b73dc7;
+    transition-duration: 0.4s;
+    border-radius: .7vh;
+}
+
+button:hover {
+    background-color: #460b4e;
 }
