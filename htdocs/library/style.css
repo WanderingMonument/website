@@ -26,13 +26,18 @@ img {
     border-width: 0pc;
 }
 
+#gridimg {
+    height: 15pc;
+    width: 15pc;
+}
+
 button {
     background-color: #ffffff;
     border-width: 0;
     color: #000000;
     transition-duration: 0.4s;
     border-radius: 1.7dvh;
-    padding-block: 0;
+    padding-block: 0pc;
 }
 
 button:hover {
@@ -53,4 +58,11 @@ button:hover {
     width: 50%; 
     position: absolute; 
     left: 25%;
+    border-radius: 10pc;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
