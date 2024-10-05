@@ -53,5 +53,5 @@ button:hover {
     width: 50%; 
     position: absolute; 
     left: 25%;
-    border-radius: 10pc;
+    border-radius: 1dvh;
 }
